@@ -34,7 +34,7 @@ const FlightSearch = () => {
                 { airline: 'Go First', departureTime: '05:30 AM', arrivalTime: '08:30 AM', airlineType:'1 Stop', price: '₹3500' },
                 { airline: 'Air India', departureTime: '07:00 AM', arrivalTime: '09:30 AM', airlineType:'Direct', price: '₹4500' },
                 { airline: 'Indigo', departureTime: '10:00 AM', arrivalTime: '12:30 PM', airlineType:'Direct', price: '₹5000' },
-                { airline: 'AirAsia', departureTime: '01:30 PM', arrivalTime: '05:00 PM', airlineType:'2 Stops', price: '₹6500' },
+                { airline: 'AirAsia', departureTime: '01:30 PM', arrivalTime: '06:00 PM', airlineType:'2 Stops', price: '₹6500' },
                 { airline: 'Vistara', departureTime: '05:00 PM', arrivalTime: '07:30 PM', airlineType:'Direct', price: '₹8000' },
                 { airline: 'SpiceJet', departureTime: '11:00 PM', arrivalTime: '02:30 AM', airlineType:'1 Stop', price: '₹11000' },
             ];
