@@ -1,3 +1,4 @@
+/* eslint-disable no-template-curly-in-string */
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import './FlightSearch.css';
@@ -105,7 +106,7 @@ const FlightSearch = () => {
                                             </div>
                                         </div>
                                         <p className="price">{flight.price}</p>
-                                        <button type="submit">Book</button>
+                                        <a class="book-button" href="${flight.bookLink}" target="_blank">Book</a>
                                     </div>
                                 ))}
                             </div>
