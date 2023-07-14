@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import './FlightSearch.css';
 
+
 const FlightSearch = () => {
     const [origin, setOrigin] = useState('');
     const [destination, setDestination] = useState('');
@@ -106,7 +107,7 @@ const FlightSearch = () => {
                                             </div>
                                         </div>
                                         <p className="price">{flight.price}</p>
-                                        <a class="book-button" href="${flight.bookLink}" target="_blank">Book</a>
+                                        <a class="book-button" href="Book.js"target='_blank'>Book</a>
                                     </div>
                                 ))}
                             </div>
